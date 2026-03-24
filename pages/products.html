@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="../favicoin.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stainless Steel Products Catalog | Tubes, Plates, Fittings | S.I.P Miami</title>
+    <meta name="description" content="Explore our complete catalog of high-quality stainless steel products including rectangular, square, and round tubes, sheets, plates, and fittings. Available in various grades and finishes.">
+    <meta name="keywords" content="stainless steel catalog, stainless steel products, wholesale round tubes, stainless steel plates, stainless steel sheets, stainless steel fittings, 304 stainless, 316L stainless, Miami Florida">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        header { position: fixed; top: 0; width: 100%; z-index: 100; transition: all 0.3s; }
+
+        .steel-text {
+            background-image: 
+                linear-gradient(120deg, transparent 0%, transparent 40%, rgba(255, 255, 255, 0.8) 50%, transparent 60%, transparent 100%),
+                url('../assets/images/Fondo-acero-inoxidable.jpg');
+            background-size: 200% 100%, cover;
+            background-position: -100% 0, center;
+            background-repeat: no-repeat, no-repeat;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block;
+            transition: transform 0.3s ease-out;
+            transform-origin: center;
+        }
+        .steel-text:hover {
+            transform: scale(1.05);
+        }
+        .steel-text.shine-active {
+            animation: steelShine 1s ease-in-out forwards;
+        }
+        @keyframes steelShine {
+            0% { background-position: -100% 0, center; }
+            100% { background-position: 200% 0, center; }
+        }
+
+        @keyframes hero-slideshow {
+            0% { opacity: 0.5; transform: scale(1.02); }
+            45% { opacity: 0.5; transform: scale(1.05); }
+            50% { opacity: 0; transform: scale(1.06); }
+            95% { opacity: 0; transform: scale(1.0); }
+            100% { opacity: 0.5; transform: scale(1.02); }
+        }
+        .hero-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            will-change: opacity, transform;
+            animation: hero-slideshow 10s infinite ease-in-out;
+        }
+        img.hero-slide:nth-of-type(1) { animation-delay: 0s; }
+        img.hero-slide:nth-of-type(2) { animation-delay: -5s; }
+    </style>
+</head>
+<body id="page-products" data-basepath="../" class="bg-background text-foreground font-sans pt-20">
+    <div id="root" class="flex flex-col min-h-screen">
+        <div id="header-placeholder"></div>
+        <main class="flex-grow"><div class="flex-grow flex flex-col" style="opacity: 1; filter: blur(0px);">
+          <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden border-b border-border" aria-label="Stainless Steel Products Catalog Hero">
+            <div class="absolute inset-0 z-0 bg-black">
+              <img alt="Stainless Steel Products Catalog" class="hero-slide" width="1920" height="1080" loading="eager" src="../assets/images/Stainless-Steel-Products.webp">
+              <img alt="Stainless Steel Warehouse Miami" class="hero-slide" width="1920" height="1080" loading="eager" src="../assets/images/Stainless-Steel-Products-1.jpg">
+              <div class="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background z-10 pointer-events-none"></div>
+              <div class="absolute inset-0 bg-grid-pattern opacity-10 z-10 pointer-events-none"></div>
+            </div>
+            <div
+              class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+              <h1 class="text-4xl md:text-6xl font-black font-display uppercase mb-4"
+                style="opacity: 1; transform: none;">
+                <span onmouseenter="this.classList.remove('shine-active'); void this.offsetWidth; this.classList.add('shine-active');"
+                    class="steel-text">
+                    Product
+                  </span>
+                   Catalog
+              </h1>
+              <h2 class="text-lg md:text-xl font-semibold text-primary/80 uppercase tracking-widest mb-6" style="opacity: 1; transform: none;">Wholesale Tubes · Pipes · Sheets · Fittings · Bars — South Florida</h2>
+              <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed"
+                style="opacity: 1; transform: none;">
+                  Trusted wholesale source for ASTM stainless steel in Miami. Grades 304, 316, and 430 with custom cuts and same-day pickup.
+              </p>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 z-20 bg-background/80 backdrop-blur-md border-t border-border py-6">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                        <h3 class="text-xl font-display font-bold whitespace-nowrap text-white uppercase tracking-wider">Available Finishes:</h3>
+                        <div class="flex flex-wrap gap-3 justify-center md:justify-end">
+                            <span class="px-4 py-2 bg-card border border-border text-xs font-bold uppercase tracking-widest rounded-sm text-gray-300">Mirror Finish (#8)</span>
+                            <span class="px-4 py-2 bg-card border border-border text-xs font-bold uppercase tracking-widest rounded-sm text-gray-300">Satin Finish (#4 brushed)</span>
+                            <span class="px-4 py-2 bg-card border border-border text-xs font-bold uppercase tracking-widest rounded-sm text-gray-300">2B Matte</span>
+                            <span class="px-4 py-2 bg-card border border-border text-xs font-bold uppercase tracking-widest rounded-sm text-gray-300">Custom Polished</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section class="py-20 bg-background">
+            <div
+              class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/tubos_rectangulares2.jpg" alt="Stainless Steel Rectangular Tube in Miami" title="304/316 Stainless Steel Rectangular Tube" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Rectangular Tube
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316, 316L
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Structural support in corrosive environments.
+                        
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=rectangular-tube#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/tubos_cuadrados3.jpg" alt="Stainless Steel Square Tube in Miami" title="304/316 Stainless Steel Square Tube" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Square Tube
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316, 316L
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Aesthetic and structural applications.
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=square-tube#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/tubos_redondos1.jpg" alt="Stainless Steel Round Tube" title="Stainless Round Tube" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Round Tube
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316, 316L
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Transporte de fluidos y barandillas
+                          arquitectónicas.
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=round-tube#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/lamina_espejo2.jpg" alt="Stainless Steel Mirror Sheets in Miami" title="Stainless Steel Sheets & Plates" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Sheets & Plates
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316, 316L, 430
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Versatile flat material for fabrication.
+                        
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=sheet-plate#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/lamina_mate1.jpg" alt="Matte Stainless Steel Angle Bar" title="Stainless Steel Angle Bar" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Angle Bar
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        90-degree framing and supports.
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=angle-bar#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/lamina_satinada1.jpg" alt="Satin Stainless Steel Flat Bar" title="Stainless Steel Flat Bar" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Flat Bar
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Base plates and mounting hardware.
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=flat-bar#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/tubos_redondos1.jpg" alt="Solid Stainless Steel Round Bar" title="Stainless Round Bar" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Round Bar
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Machining and shaft fabrication.
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=round-bar#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/tubos_cuadrados3.jpg" alt="Surgical and Commercial Hex Bar" title="Stainless Hex Bar" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Hex Bar
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Perfecto para fijaciones y accesorios a
+                          medida.
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=hex-bar#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+                <div
+                  class="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors"
+                  style="opacity: 1; transform: none;">
+                  <div class="h-48 overflow-hidden border-b border-border w-full relative">
+                        <img src="../assets/images/tubos_redondos1.jpg" alt="Sch 10/40/80 Industrial Stainless Steel Pipe" title="Industrial Stainless Steel Pipe" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+<div class="p-8 flex-grow">
+                    
+                    <h3 class="text-2xl font-display font-bold text-white mb-2">
+                      
+                        Pipe (Sch 10/40/80)
+                      
+                    </h3>
+                    <p
+                      class="text-sm font-mono text-primary mb-4">
+                      
+                        Grades: 
+                      
+                      
+                        304, 316
+                      
+                    </p>
+                    <p
+                      class="text-muted-foreground">
+                      
+                        Heavy-duty pressure transport.
+                        
+                      
+                    </p>
+                  </div>
+                  <div class="border-t border-border p-4 bg-background"><a href="../index.html?product=pipe#quote"
+                      class="flex items-center justify-between text-sm font-bold uppercase tracking-wider text-gray-400 group-hover:text-primary transition-colors">
+                      
+                        Request Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-right transform group-hover:translate-x-1 transition-transform"
+                        aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </a></div>
+                </div>
+
+              </div>
+              <div
+                class="mt-24 p-8 bg-card border border-border">
+                <h2
+                  class="text-2xl font-display font-bold mb-4">
+                  
+                    Your Stainless Steel Supplier in Miami
+                  
+                </h2>
+                <p
+                  class="text-muted-foreground leading-relaxed">
+                  
+                    At Stainless Inox Premium Corp, we pride ourselves on being the go-to stainless steel distributor in Dade and Broward counties, and across South Florida. Whether you need 304 stainless steel sheets for food processing equipment or 316 marine-grade stainless steel round bars, our Miami warehouse is fully stocked to meet industrial demand. Contact us for wholesale pricing and local delivery options.
+                  
+                </p>
+              </div>
+            </div>
+          </section>
+        </div></main>
+        <div id="footer-placeholder"></div>
+    </div>
+    <script src="../assets/js/components.js"></script>
+</body>
+</html>
