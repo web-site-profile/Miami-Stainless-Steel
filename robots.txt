@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://web-site-profile.github.io/Miami-Stainless-Steel/sitemap.xml
