@@ -1,28 +1,32 @@
 <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent py-5">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between">
-            <a href="index.html" class="group flex items-center gap-2">
-                <img src="assets/images/logo-sip.png" alt="S.I.P Logo" class="h-10 w-auto">
+            <a href="index.html" class="group flex items-center gap-2" aria-label="S.I.P Home">
+                <img src="assets/images/logo-sip.webp" alt="S.I.P Logo" class="h-10 w-auto">
                 <span class="font-display font-black text-3xl tracking-tighter text-white group-hover:text-primary transition-colors">S.I.P</span>
                 <div class="h-6 w-[2px] bg-primary transform rotate-12 mx-1 hidden sm:block"></div>
                 <span class="text-xs text-muted-foreground font-semibold uppercase tracking-widest hidden sm:block">Stainless Inox<br>Premium Corp</span>
             </a>
-            <nav class="hidden md:flex items-center gap-8">
-                <a href="index.html" class="nav-link link-home text-sm font-semibold uppercase tracking-wider transition-all duration-200 hover:text-primary">Home</a>
-                <a href="pages/products.html" class="nav-link link-products text-sm font-semibold uppercase tracking-wider transition-all duration-200 hover:text-primary">Products</a>
-                <a href="pages/contacto.html" class="nav-link link-contact text-sm font-semibold uppercase tracking-wider transition-all duration-200 hover:text-primary">Contact</a>
-                <a href="index.html#quote" class="relative inline-flex h-10 items-center justify-center px-6 py-2 overflow-hidden font-bold uppercase tracking-wider text-sm holo-btn"><span class="relative">Get a Quote</span></a>
+            <nav class="hidden md:block" aria-label="Main Navigation">
+                <ul class="flex items-center gap-8">
+                    <li><a href="index.html" class="nav-link link-home text-sm font-semibold uppercase tracking-wider transition-all duration-200 hover:text-primary">Home</a></li>
+                    <li><a href="pages/products.html" class="nav-link link-products text-sm font-semibold uppercase tracking-wider transition-all duration-200 hover:text-primary">Products</a></li>
+                    <li><a href="pages/contacto.html" class="nav-link link-contact text-sm font-semibold uppercase tracking-wider transition-all duration-200 hover:text-primary">Contact</a></li>
+                    <li><a href="index.html#quote" class="relative inline-flex h-10 items-center justify-center px-6 py-2 overflow-hidden font-bold uppercase tracking-wider text-sm holo-btn"><span class="relative">Get a Quote</span></a></li>
+                </ul>
             </nav>
-            <button id="mobile-menu-btn" class="md:hidden p-2 text-white hover:text-primary transition-colors">
+            <button id="mobile-menu-btn" class="md:hidden p-2 text-white hover:text-primary transition-colors" aria-label="Toggle Mobile Menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
             </button>
         </div>
     </div>
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-background/95 backdrop-blur-xl border-b border-border absolute w-full left-0 top-full flex flex-col items-center py-8 gap-6 shadow-2xl transform origin-top transition-transform duration-300">
-        <a href="index.html" class="nav-link link-home text-lg font-bold uppercase tracking-wider hover:text-primary transition-colors">Home</a>
-        <a href="pages/products.html" class="nav-link link-products text-lg font-bold uppercase tracking-wider hover:text-primary transition-colors">Products</a>
-        <a href="pages/contacto.html" class="nav-link link-contact text-lg font-bold uppercase tracking-wider hover:text-primary transition-colors">Contact</a>
-        <a href="index.html#quote" class="mt-4 relative inline-flex h-12 items-center justify-center px-8 py-2 overflow-hidden font-bold uppercase tracking-wider text-sm holo-btn"><span class="relative">Get a Quote</span></a>
-    </div>
+    <nav id="mobile-menu" class="hidden md:hidden bg-background/95 backdrop-blur-xl border-b border-border absolute w-full left-0 top-full shadow-2xl transform origin-top transition-transform duration-300" aria-label="Mobile Navigation">
+        <ul class="flex flex-col items-center py-8 gap-6">
+            <li><a href="index.html" class="nav-link link-home text-lg font-bold uppercase tracking-wider hover:text-primary transition-colors">Home</a></li>
+            <li><a href="pages/products.html" class="nav-link link-products text-lg font-bold uppercase tracking-wider hover:text-primary transition-colors">Products</a></li>
+            <li><a href="pages/contacto.html" class="nav-link link-contact text-lg font-bold uppercase tracking-wider hover:text-primary transition-colors">Contact</a></li>
+            <li><a href="index.html#quote" class="mt-4 relative inline-flex h-12 items-center justify-center px-8 py-2 overflow-hidden font-bold uppercase tracking-wider text-sm holo-btn"><span class="relative">Get a Quote</span></a></li>
+        </ul>
+    </nav>
 </header>
