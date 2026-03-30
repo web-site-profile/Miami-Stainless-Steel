@@ -1,0 +1,47 @@
+# Estrategia de Optimización SEO: Stainless Inox Premium Corp (Miami)
+
+Este documento detalla las mejoras implementadas y las recomendaciones estratégicas para posicionar la página web en los primeros resultados de búsqueda en Miami y Estados Unidos para productos de acero inoxidable.
+
+## 1. Mejoras Técnicas Implementadas (On-Page SEO)
+
+Se ha optimizado el código HTML con las siguientes mejoras críticas:
+
+| Elemento | Mejora Realizada | Impacto en SEO |
+| :--- | :--- | :--- |
+| **Etiqueta Title** | Cambiada a: `Stainless Steel Supplier in Miami \| Wholesale Tubes, Sheets & Pipes \| SIP` | Incluye palabras clave de alta intención de búsqueda y ubicación geográfica. |
+| **Meta Description** | Redactada para incluir "wholesale", "Miami, FL", "304 & 316 tubes" y un llamado a la acción claro. | Mejora el CTR (tasa de clics) desde los resultados de Google. |
+| **Encabezados (H1, H2)** | Estructurados para priorizar "Miami Stainless Steel Distributor & Supplier". | Ayuda a Google a entender que el sitio es una autoridad local. |
+| **Atributos Alt** | Se añadieron descripciones ricas en palabras clave a todas las imágenes (ej: "Wholesale stainless steel supplier Miami warehouse"). | Permite aparecer en las búsquedas de imágenes de Google. |
+| **Datos Estructurados** | Implementación de JSON-LD tipo `WholesaleStore` con dirección física y coordenadas en Miami. | Facilita la aparición en el "Local Pack" (mapas) de Google. |
+| **Etiqueta Canonical** | Definida para evitar problemas de contenido duplicado. | Consolida la autoridad de la página en una sola URL. |
+
+## 2. Palabras Clave Objetivo (Keywords)
+
+Basado en el análisis de competencia en Miami, se deben priorizar los siguientes términos:
+
+*   **Primarias:** `stainless steel supplier miami`, `wholesale stainless steel florida`, `stainless steel distributor miami`.
+*   **De Producto:** `stainless steel tubes miami`, `stainless steel sheets florida`, `304 stainless steel pipes`, `316L marine grade stainless steel`.
+*   **De Intención:** `get a quote stainless steel miami`, `stainless steel warehouse miami`.
+
+## 3. Recomendaciones de SEO Local (Google Business Profile)
+
+Para dominar las búsquedas en Miami, es **imprescindible** optimizar la ficha de Google Maps:
+
+1.  **Nombre del Negocio:** Asegurarse de que coincida exactamente con "Stainless Inox Premium Corp".
+2.  **Categoría:** Seleccionar "Steel distributor" o "Wholesale market".
+3.  **Reseñas:** Solicitar activamente reseñas a clientes actuales mencionando productos específicos (ej: "Excelente servicio en la compra de tubos 304").
+4.  **Fotos:** Subir fotos reales del almacén en la 8229 NW 68th St y de los productos en stock.
+
+## 4. Estrategia de Contenido (Blog/Páginas de Producto)
+
+Para expandir el alcance a nivel nacional (EE. UU.), se recomienda crear páginas específicas para:
+
+*   **Grados de Acero:** Una página detallada sobre las diferencias entre 304, 316 y 430.
+*   **Guías de Aplicación:** "Cómo elegir acero inoxidable para la industria alimentaria en Florida".
+*   **Especificaciones Técnicas:** Tablas de pesos y medidas para tubos y láminas (esto atrae mucho tráfico de ingenieros y fabricantes).
+
+## 5. Próximos Pasos
+
+1.  **Reemplazar el archivo `index.html`** actual con la versión optimizada adjunta.
+2.  **Verificar la propiedad** del sitio en [Google Search Console](https://search.console.google.com/).
+3.  **Enviar el Sitemap** a Google para que indexe los cambios rápidamente.
